@@ -13,3 +13,20 @@ l1 = [64, 25, 12, 22, 11]
 
 selection_sort(l1)
 print(l1)
+
+1. Selection Sort
+How It Works:
+
+    The idea behind Selection Sort is to divide the list into two parts:
+        Sorted part: Initially empty.
+        Unsorted part: Initially, the entire list.
+    Steps:
+        Find the minimum element from the unsorted part.
+        Swap it with the first unsorted element (beginning of the unsorted part).
+        Move the boundary of the sorted part one element to the right and repeat the process.
+
+Time Complexity:
+
+    Best: O(n²)
+    Average: O(n²)
+    Worst: O(n²)
